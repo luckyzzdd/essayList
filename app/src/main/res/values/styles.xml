@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 核心：可复用的黑白简约按钮样式 -->
+    <style name="Widget.Button.MinimalBlackWhite" parent="Widget.Material3.Button">
+        <!-- 黑白简约核心属性 -->
+        <item name="backgroundTint">@color/black</item>          <!-- 黑色背景 -->
+        <item name="android:textColor">@color/white</item>       <!-- 白色文字 -->
+        <item name="cornerRadius">4dp</item>                     <!-- 4dp小圆角 -->
+        <item name="strokeWidth">0dp</item>                      <!-- 无边框 -->
+        <item name="rippleColor">@color/gray_200</item>          <!-- 浅灰水波纹（极简反馈） -->
+        <item name="elevation">0dp</item>                        <!-- 去掉阴影 -->
+        <item name="android:textSize">14sp</item>                <!-- 统一文字大小 -->
+        <item name="android:paddingHorizontal">20dp</item>       <!-- 统一水平内边距 -->
+        <item name="android:paddingVertical">10dp</item>         <!-- 统一垂直内边距 -->
+    </style>
+
+    <!-- 可选：边框版黑白简约按钮（透明背景+黑边框） -->
+    <style name="Widget.Button.MinimalBlackWhite.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="backgroundTint">@android:color/transparent</item> <!-- 透明背景 -->
+        <item name="strokeWidth">1dp</item>                           <!-- 1dp黑边框 -->
+        <item name="strokeColor">@color/black</item>                   <!-- 边框色 -->
+        <item name="android:textColor">@color/black</item>             <!-- 黑色文字 -->
+        <item name="cornerRadius">4dp</item>                           <!-- 小圆角 -->
+        <item name="rippleColor">@color/gray_200</item>                <!-- 浅灰水波纹 -->
+        <item name="android:textSize">14sp</item>                      <!-- 统一文字大小 -->
+    </style>
+    
+</resources>

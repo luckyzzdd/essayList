@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText
+        android:id="@+id/tv_fragment_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入标题"
+        android:textColorHint="@color/grey_light"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+      />
+    <EditText
+        android:background="@null"
+        android:id="@+id/et_todo_content"
+        android:layout_width="0dp"
+        android:layout_height="470dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="请输入你想要记录的文字"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey_light"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fragment_title"
+        android:gravity="top"
+        />
+
+    <Button
+        android:id="@+id/btn_submit_todo"
+        style="@style/Widget.Button.MinimalBlackWhite.Outlined"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="提交文字"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_todo_content" />
+
+    <Button
+        android:id="@+id/btn_request_submit_todo"
+        style="@style/Widget.Button.MinimalBlackWhite.Outlined"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="提交云端"
+        app:layout_constraintStart_toEndOf="@+id/btn_submit_todo"
+        app:layout_constraintTop_toBottomOf="@id/et_todo_content" />
+
+    <Button
+        android:id="@+id/btn_clear_todo"
+        style="@style/Widget.Button.MinimalBlackWhite.Outlined"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="清空"
+        app:layout_constraintEnd_toStartOf="@+id/btn_submit_todo"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_todo_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

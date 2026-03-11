@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+    <!-- 指示器的颜色 -->
+    <solid android:color="@color/red"/>
+    <!-- 指示器的大小（宽度match_parent，高度2dp） -->
+    <size android:width="10dp" android:height="2dp"/>
+    <!-- 圆角（可选，让横线两端圆润） -->
+    <corners android:radius="1dp"/>
+</shape>

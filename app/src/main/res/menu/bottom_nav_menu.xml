@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 待办列表项 -->
+    <item
+        android:id="@+id/nav_one"
+        android:title="一句"
+        android:icon="@mipmap/juzi" />
+    <item
+        android:id="@+id/nav_todo_list"
+        android:title="清单"
+        android:icon="@mipmap/list" />
+    <!-- 新增待办项 -->
+    <item
+        android:id="@+id/nav_add_todo"
+        android:title="新增"
+        android:icon="@mipmap/add" />
+</menu>

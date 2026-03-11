@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础黑白灰（核心中性色） -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#595454</color>       <!-- 基础中灰 -->
+    <color name="grey_light">#FF9E9E9E</color> <!-- 浅灰（背景/分割线） -->
+    <color name="grey_dark">#FF424242</color>  <!-- 深灰（次要文字） -->
+
+    <!-- 主流主题蓝（视觉舒适的主色） -->
+    <color name="primary">#FF2196F3</color>    <!-- 主蓝色（按钮/品牌色） -->
+    <color name="primary_dark">#FF1976D2</color><!-- 深蓝（标题栏/强调） -->
+
+    <!-- 常用功能色（提示/反馈） -->
+    <color name="red">#FFF44336</color>        <!-- 红色（错误/删除） -->
+    <color name="green">#FF4CAF50</color>      <!-- 绿色（成功/完成） -->
+    <color name="yellow">#FFFBC02D</color>     <!-- 黄色（警告/提示） -->
+    <color name="pink">#db5a6b</color>
+    <color name="gray_200">#EEEEEE</color>
+</resources>
